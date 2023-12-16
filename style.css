@@ -1,0 +1,29 @@
+header {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 16px;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-left: auto;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
+    padding: 16px;
+
+}
