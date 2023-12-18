@@ -1,3 +1,7 @@
+body {
+    background-color: #1f2937;
+}
+
 header {
     background-color: #1f2937;
     font-size: 18px;
@@ -23,7 +27,58 @@ header {
 }
 
 header img {
-    width: 120px;
+    width: 80px;
     padding: 16px;
 
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+    
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.writer-block {
+    height: auto;
+    width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 12px;
+    border-radius: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #2980b9
+}
+
+button:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
 }
