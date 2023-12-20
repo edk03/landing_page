@@ -1,7 +1,9 @@
 body {
-    background-color: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
+ 
 header {
     background-color: #1f2937;
     font-size: 18px;
@@ -36,9 +38,9 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-
-    
+  gap: 16px; 
+  background-color: #1f2937;  
+  padding: 32px;
 }
 
 .awesome {
@@ -81,4 +83,49 @@ button:hover {
 
 button:focus {
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+.images-text img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+.midcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #f9faf8;
+  
+
+}
+
+.midcontent p {
+    color: #1f2937;
+}
+
+.images-text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.iat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    margin: 16px;
+    padding: 12px;
+
+}
+
+.iat p {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
 }
