@@ -149,3 +149,45 @@ button:focus {
     display: flex;
     align-self: flex-end;
 }
+
+
+.actionq {
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square {
+  padding: 20px;
+  }
+
+.button {
+    padding: 20px;
+    border: 5px solid #f9faf8;
+    border-radius: 30px;
+    color: #f9faf8;
+    font-size: 16px;
+    
+}
+
+.button button {
+    color: #f9faf8;
+}
+
+.square p {
+    color: #fff;
+}
+
+footer {
+    color: #1f2937;
+    background-color: #1f2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
